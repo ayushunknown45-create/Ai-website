@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fun Facts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Fun Facts</h1>
+            <p class="subtitle">Discover something new every refresh!</p>
+        </div>
+        
+        <div class="fact-card">
+            <div class="fact-content">
+                <p id="factText" class="fact-text">Loading...</p>
+                <p id="factSource" class="fact-source">Source: Loading...</p>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <button id="refreshBtn" class="btn btn-primary">Get New Fact</button>
+            <button id="copyBtn" class="btn btn-secondary">Copy Fact</button>
+        </div>
+        
+        <footer class="footer">
+            <p>Made with ❤️ for AI enthusiasts</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
